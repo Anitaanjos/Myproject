@@ -1,0 +1,6 @@
+o github é uma plataforma muito bem avaliada e usada principalmente por programadores, onde eles deixam salvos seus arquivos. 
+A plataforma é grande e suporta muita gente, você pode compartilhar arquivos com várias pessoas ao mesmo tempos, onde as nformaçõ~es ficam salvas, podem ser alteradas
+e o arquivo pode ser voltado. dentro do github você pode ver trabalhos, codigos e artigos de outras pessoas se estiver publico para outras pessoas verem.
+
+$ git config --global user.name "anita anjos"
+$ git config --global user.email nitinhaanjos@gmail.com
