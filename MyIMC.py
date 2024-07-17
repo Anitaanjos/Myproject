@@ -1,13 +1,12 @@
 #calcular IMC
-print("digite seu peso")
-peso = int(input())
-print("digite sua altura")
-altura = int(input())
+peso = int(input("Digite o seu peso: "))
+altura = float(input("Digite sua altura"))
 IMC = peso / (altura ** 2)
 
-if peso < 25:
+print(f"o seu IMC é {IMC}.")
+if IMC > 25:
     print("Acima do peso ideal")
-elif peso > 18:
+elif IMC < 18:
     print("Abaixo do peso ideal")
-elif peso < 18 > 25:
+else:
     print("O seu peso está ok")
