@@ -1,9 +1,9 @@
 #Notas trimestrais
 #atividade 2
-x = int("digite a nota 1: ")
-y = int("digite a nota 2: ")
-z = int("digite a nota 3: ")
-w = int("digite a nota 4: ")
+x = int(input("digite a nota 1: "))
+y = int(input("digite a nota 2: "))
+z = int(input("digite a nota 3: "))
+w = int(input("digite a nota 4: "))
 SOMA = x + y + z + w 
 MÉDIA = SOMA / 4 
 print("A soma é", SOMA)
