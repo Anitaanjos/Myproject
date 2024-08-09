@@ -11,9 +11,10 @@ def adição(x, y):
     return x + y 
 soma = x + y 
 print("O resultado da operação é", soma)
-if soma = ** 2:
-    print("Deu par, parabens vc ganhou!!!")
 
-
-
-
+if soma % 2 == 0:
+    print("O resultado deu par!")
+    print("Parabens voce ganhou!!!")
+else:
+    print("O resultado deu impar!")
+    print("Eu ganhei!!")
